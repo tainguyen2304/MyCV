@@ -1,6 +1,7 @@
 import './index.scss'
 import avatar from '../../assets/image/avatar.png'
 import CV from '../../assets/file/tainguyen_resume.pdf'
+import { Link } from 'react-router-dom'
 import { useState } from 'react';
 const Home = (props) => { 
     const [isACtive, setActive] = useState();
@@ -45,9 +46,9 @@ const Home = (props) => {
             </div>
         </div>
         <div className='d-flex pt-5 wrapper-down'>
-            <div className='btn me-3 '>
+            <Link to="/about_me" className='btn me-3 d-block '>
                 Read more about my story
-            </div>
+            </Link>
             <div className='btn' onClick={() => setActive(true)}>
                 Contact me
             </div>
