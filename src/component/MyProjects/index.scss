@@ -1,0 +1,38 @@
+.myproject__bg {
+   background: #fff;
+   box-shadow: 1px 0px 10px #b1b1b1;
+   padding: 8px;
+   .layer_1 {
+        // box-shadow: 1px 0px 10px #b1b1b1;
+        background-color:#f5df96;
+        padding: 10px;
+            .layer_2 {
+                padding: 10px;
+                .content {
+                    h5 {
+                        color: #f5df96;
+                        font-family: fantasy;
+                        text-shadow: 2px 2px 0 #333;
+                    }
+                }
+                .description {
+                    padding-top: 1rem;
+                    color: #333;
+                    font-weight: 600;
+                    font-family: monospace;
+                    // text-shadow: 1px 2px 0 #000;
+                    p {
+                        font-size: 20px;
+                        padding: 0;
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 54px;
+                            font-family: fantasy;
+                            text-shadow: 6px 5px 0 #333;
+                        }
+                    }
+                }
+            }
+            }
+}

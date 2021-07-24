@@ -1,0 +1,64 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400;1,500&display=swap');
+
+$SM:   768px;  
+$MD:    1024px;  
+
+@mixin Responsive($canvas) {
+  @if $canvas == SM {
+   @media only screen and (max-width: $SM) { @content; } 
+  }
+  @else if $canvas == MD {
+   @media only screen and (min-width: $SM + 1) { @content; } 
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.opacity {
+  animation: opacity;
+  transition: all .2s linear;
+}
+@include Responsive(SM) {
+  .box__question {
+    border-right: none;
+      border-bottom: 1px solid #000;
+  }
+  .box__answer {
+    padding-top: 10px ;
+  }
+  .answer-2 {
+    padding-bottom: 20px;
+  }
+  .avatar {
+    width: 75%;
+  }
+}
+@include Responsive(MD) {
+  .box__question {
+    border-bottom: none;
+    border-right: 1px solid #000;
+  }
+  .answer-2 {
+    padding-top: 20px;
+  }
+  .description {
+    border-left: 2px solid #fff;
+  }
+}
+
+@keyframes opacity {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}

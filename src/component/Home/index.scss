@@ -1,0 +1,92 @@
+.Home {
+    font-family: serif;
+    h1 {
+        font-family: monospace;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    p {
+        margin: 0;
+        line-height: 1.4rem;
+        // font-weight: 400;
+        color: #333;
+        font-size: 1.2rem;
+        padding-bottom: .2rem;
+    }
+    .avatar {
+        box-shadow: 2px 0 10px rgb(161, 161, 161);
+    }
+    .question-2 {
+        padding-top: 20px;
+      }
+    .btn {
+        background-color: tomato !important;
+        box-shadow: 2px 2px 0 #333;
+        font-size: .8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        transition: .15s linear;
+    }   
+    .btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 4px 4px 0 #333;
+
+    }
+    .wrapper-down {
+        position: relative;
+            .download {
+                position: absolute;
+                background-color: white;
+                right: 0;
+                top: 160px;
+                width: 300px;
+                min-height: 400px;
+                border: 3px solid #333;
+                border-radius: 12px;
+                transition: 1s ease-out;
+                z-index: 1;
+                h5 {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                p{
+                    font-size: 18px;
+                    color: rgb(190, 189, 189);
+                    padding: 0 0 6px 0;
+                }
+                .downed {
+                    animation: opacity .5s linear;
+                    font-size: 20px;
+                }
+            }
+            .active {
+                top: -260px;
+            }
+
+            span {
+                width: 30px;
+                height: 30px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .bg-down {
+                background-color: rgb(243, 210, 21) !important;
+                border: 2px solid #000;
+                font-weight: 600;
+                letter-spacing: 2px;
+                cursor: pointer;
+            }
+            h3 {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    }
+    
+}
