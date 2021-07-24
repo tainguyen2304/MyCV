@@ -31,7 +31,7 @@
         transition: .15s linear;
     }   
     .btn:hover {
-        transform: translateY(-1px);
+        transform: translateY(-3px);
         box-shadow: 4px 4px 0 #333;
 
     }
@@ -52,11 +52,16 @@
                     text-transform: uppercase;
                     font-weight: 600;
                     font-family: Arial, Helvetica, sans-serif;
+                    letter-spacing: 1px;
+                    padding: 0;
+                    margin-bottom: 20px;
+
                 }
                 p{
-                    font-size: 18px;
-                    color: rgb(190, 189, 189);
-                    padding: 0 0 6px 0;
+                    font-size: 20px;
+                    line-height: 1.5rem;
+                    color: rgb(160, 160, 160);
+                    padding: 0;
                 }
                 .downed {
                     animation: opacity .5s linear;
@@ -80,12 +85,21 @@
                 font-weight: 600;
                 letter-spacing: 2px;
                 cursor: pointer;
+                transition: all .1s linear;
+            }
+            .bg-down:hover {
+                transform: translateY(-2px);
+                box-shadow: 1px 1px 0 #000;
             }
             h3 {
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 font-weight: 600;
                 font-family: Arial, Helvetica, sans-serif;
+            }
+            .down-CV {
+              text-decoration: none;
+              color: #000;  
             }
     }
     
