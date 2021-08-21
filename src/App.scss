@@ -40,6 +40,9 @@ html {
   .avatar {
     width: 75%;
   }
+  .phancach {
+    border-bottom: 4px solid #fff;
+  }
 }
 @include Responsive(MD) {
   .box__question {
