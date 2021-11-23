@@ -60,7 +60,7 @@ function Myprojects(props) {
                     </div>
                     <div className='col-12 col-md-4 description'>
                         <p>This is my first project, made simple with pure JS. Although simple, it marked the turning point that opened my web programming path.</p>
-                        <p className='pt-4'>Link Project: <a href='https://music-app-7a1b5.web.app/'>Clothes Shop</a></p>
+                        <p className='pt-4'>Link Project: <a href='https://clotheshop.netlify.app/'>Clothes Shop</a></p>
                     </div>
                 </div>
                 <div className='layer_2 pt-5 row rounded'>
