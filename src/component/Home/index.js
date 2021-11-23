@@ -2,12 +2,17 @@ import './index.scss'
 import avatar from '../../assets/image/avatar.png'
 import CV from '../../assets/file/tainguyen_resume.pdf'
 import { Link } from 'react-router-dom'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 const Home = (props) => { 
     const [isACtive, setActive] = useState();
     const [isDown, setDown] = useState();
     const active = 'ms-auto download p-3  text-start active';
     const unActive = 'ms-auto download p-3  text-start';
+    
+    useEffect(()=>{
+        document.title = 'Home | Nguyên Thành Tài'
+    },[])
+
     const handleClick = () => {
         setActive(false);
         setDown(false);

@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import './index.scss';
 
 function About(props) {
+    useEffect(()=>{
+        document.title = 'About | Nguyên Thành Tài'
+    },[])
+
     return (
         <div className='pt-4 About'>
             <div className='title'>Hello, I'm Tai!</div>
@@ -13,7 +18,11 @@ function About(props) {
                 <p className='paragrap'>
                     fter 2 months of learning, I chose Frontend Developer as my career because it is related to JS
                     and I <b> love</b> working with layout, colors, logic as well as how to create <b>a beautiful, functional and attractive website</b>.
-                    I chose <b>KMIN Academy</b> as the place to start. After 8 months, I have learned many things from basic to advanced.
+                    I chose <b> <a 
+                                    href="https://kmin.edu.vn/" target="_blank"
+                                    style={{textDecorationLine:'none'}}>
+                                            KMIN ACADEMY
+                                </a></b> as the place to start. After 8 months, I have learned many things from basic to advanced.
                     From <b>HTML5, CSS, JS, ... to Git, Sass, Bootstrap, React, ... </b>
                     I also learned <b> Data Structures, Algorithms, Photoshop</b>  from College.
                 </p>
@@ -28,9 +37,18 @@ function About(props) {
                 <h4>Questions and answers</h4>
                 <div className='p-3'>
                     <h5>1. How can I be contacted?</h5>
-                    <p className='answer'>- I usually reply to emails pretty quickly.</p>
+                        <p className='answer'>- I usually reply to emails pretty quickly.</p>
                     <h5>2. Which technology am I most confident in?</h5>
-                    <p className='answer'>- ReactJS.</p>
+                        <p className='answer'>- ReactJS.</p>
+                    <h5>3. How to contact Kmin Academy?</h5>
+                        <p className='answer'>- Please contact by email:
+                            <b>
+                            <a  href="mailto:academy@kmin.edu.vn"
+                                target="_blank"
+                                style={{textDecorationLine:'none', paddingLeft:6}}
+                            >
+                        academy@kmin.edu.vn</a> </b>.
+                        </p>
                 </div>
             </div>
 
