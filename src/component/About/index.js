@@ -20,6 +20,7 @@ function About(props) {
                     and I <b> love</b> working with layout, colors, logic as well as how to create <b>a beautiful, functional and attractive website</b>.
                     I chose <b> <a 
                                     href="https://kmin.edu.vn/" target="_blank"
+                                    rel="noreferrer"
                                     style={{textDecorationLine:'none'}}>
                                             KMIN ACADEMY
                                 </a></b> as the place to start. After 8 months, I have learned many things from basic to advanced.
@@ -45,6 +46,7 @@ function About(props) {
                             <b>
                             <a  href="mailto:academy@kmin.edu.vn"
                                 target="_blank"
+                                rel="noreferrer"
                                 style={{textDecorationLine:'none', paddingLeft:6}}
                             >
                         academy@kmin.edu.vn</a> </b>.
