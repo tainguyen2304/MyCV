@@ -66,10 +66,8 @@ const Home = (props) => {
                     </span>
                 </div>
                 <h5>Hey there!</h5>
-                <p>I can be reached via:</p>
-                <i className='pb-1'>Email: <a href='mailto:thtai23ad04@gmail.com '>thtai2304@gmail.com</a></i><br></br>
-                <i className='pb-4'>Linkedin: <a href='https://www.linkedin.com/in/th%C3%A0nh-t%C3%A0i-nguy%E1%BB%85n-430a71217/'>Tai Nguyen</a></i>
-                <p>You can also download my CV by clicking the button below.</p>
+                
+                <p>You can  download my CV by clicking the button below.</p>
                 <a href={CV} target="_blank" rel="noreferrer"  className='mt-3 d-block px-2 py-1 mt-3 text-center bg-down rounded-pill down-CV' onClick={() => setDown(true)}>DOWNLOAD</a>
                 {isDown ? <p className='text-center downed pt-4'>Thank you and wish to hear from you soon!</p> :<div></div>}
             </div>
