@@ -12,11 +12,7 @@ function Header(props) {
                         <div className='row justify-content-center'>
                             <div className='my-name col-12 col-md-6 text-center'>NGUYEN THANH TAI</div>
                             <div className='col-12 col-md-6 '>
-                                <div className='my-level text-center'>FRONTEND INTERN</div>
-                                {/* <div className='row align-items-center pt-2 text-center'>
-                                    <div className='contact col-12 col-md-4'>*Contact*</div>
-                                    <a href="mailto:thtai2304@gmail.com" className="col-12 col-md-4 contact-link  py-2 py-md-0">Kmin Academy</a>
-                                </div> */}
+                                <div className='my-level text-center'>FRONTEND DEVELOPER</div>
                             </div>
                         </div>
                     </div>
