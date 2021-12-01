@@ -24,12 +24,12 @@ function About(props) {
                                     style={{textDecorationLine:'none'}}>
                                             KMIN ACADEMY
                                 </a></b> as the place to start. After 8 months, I have learned many things from basic to advanced.
-                    From <b>HTML5, CSS, JS, ... to Git, Sass, Bootstrap, React, ... </b>
+                    From <b>HTML5, CSS, JS Basic, Github, Sass, Bootstrap, Jquery, ES6, Ant Design, React, Hooks, React-Redux, Redux Toolkit, RESTful API,  Deploy a Web ... </b>
                     I also learned <b> Data Structures, Algorithms, Photoshop</b>  from College.
                 </p>
                 <div className='head'>C</div>
                 <p className='paragrap'>
-                    urrently, I have graduated from Frontend course in July 2021. I am looking for <b>Frontend Intern</b> jobs to learn more knowledge and skills about Frontend. Since I have only been working on small projects, I do not have any practical work experience, but I will try my best to complete the assigned tasks.
+                    urrently, I have graduated from Frontend course in July 2021. I am looking for <b>Front-end Developer</b> jobs to learn more knowledge and skills about Frontend. Since I have only been working on small projects, I do not have any practical work experience, but I will try my best to complete the assigned tasks.
                 </p>
                 <div className='head'>F</div>
                 <p className='paragrap'>uture me will continue to pursue this path of acquiring knowledge, supporting others and looking for opportunities to change the world through my craft.</p>

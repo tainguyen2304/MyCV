@@ -1,5 +1,5 @@
 import './index.scss'
-import avatar from '../../assets/image/avatar.png'
+import avatar from '../../assets/image/avatar.jpg'
 import CV from '../../assets/file/tainguyen_resume.pdf'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react';
@@ -45,7 +45,7 @@ const Home = (props) => {
                 </div>
             </div>
             <div className=' col-12 col-md-4'>
-                <div className='p-1 avatar'>
+                <div className='p-2 avatar '>
                     <img src={avatar} alt='avatar' className='w-100' />
                 </div>
             </div>
