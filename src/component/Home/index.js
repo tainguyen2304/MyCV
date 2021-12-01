@@ -39,7 +39,7 @@ const Home = (props) => {
                     </div>
                     <div className='col-12 col-md-9 box__answer answer-2'>
                         <p>Many things related to Frontend!</p>
-                        <p>Frontend Intern.</p>
+                        <p>Fresher Front-end.</p>
                         <p></p>
                     </div>
                 </div>
