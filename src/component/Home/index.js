@@ -23,23 +23,24 @@ const Home = (props) => {
         <div className='row '>
             <div className=' col-12 col-md-8'>
                 <h1 className='welcome'>WELCOME!</h1>
-                <div className='row pt-3 px-3'>
+                <div className='row pt-3 px-3 '>
                     <div className='col-12 col px-0 pb-2 col-md-3 box__question '>
                         <b >Who am I?</b>
                     </div>
                     <div className='col-12 col-md-9 box__answer'>
-                        <p>A Frontend Intern specializing in frontend technologies: React, Sass, Bootstrap, ...</p>
-                        <p>A student majoring in information technology at Cao Thang Technical College.</p>
-                        <p>A student has a certificate of graduation from Frontend course at Kmin Academy.</p>
+                        <p className='mb-4'>- A <b className="fw-bolder fs-5">Frontend Developer</b> with skills: <b className="fw-bolder fs-5">HTML5   -   CSS   -   JS Basic   -   Github   -   Sass   -   Bootstrap   -   Jquery   -   ES6   -   Ant  Design   -   React   -   Hooks   -   React-Redux   -   Redux  Toolkit   -   RESTful API   -   Deploy a Web   -  UI/UX.</b>
+                        </p>
+                        <p className='mb-4'>- A student majoring in information technology at Cao Thang Technical College.</p>
+                        <p className='mb-4'>- A student has a certificate of graduation from Frontend course at Kmin Academy.</p>
                     </div>
                 </div>
                 <div className='row px-3'>
-                    <div className='col-12  px-0 pb-2 col-md-3 question-2 box__question '>
-                        <b>What do I do?</b>
+                    <div className='col-12  px-0 pb-2 col-md-3 question-2 box__question pt-5'>
+                        <b className="fw-bolder fs-5">What do I do?</b>
                     </div>
-                    <div className='col-12 col-md-9 box__answer answer-2'>
-                        <p>Many things related to Frontend!</p>
-                        <p>Fresher Front-end.</p>
+                    <div className='col-12 col-md-9 box__answer answer-2 pt-5'>
+                        <p className='mb-4'>- Many things related to Frontend!</p>
+                        <p>- Front-end Developer.</p>
                         <p></p>
                     </div>
                 </div>
