@@ -60,7 +60,7 @@ function Myprojects(props) {
                     </div>
                     <div className='col-12 col-md-4 description'>
                         <p>This is my first project, made simple with pure JS. Although simple, it marked the turning point that opened my web programming path.</p>
-                        <p className='pt-4'>Link Project: <a href='https://clotheshop.netlify.app/'>Clothes Shop</a></p>
+                        <p className='pt-4 linkProject'><a href='https://clotheshop.netlify.app/'>Clothes Shop</a></p>
                     </div>
                 </div>
                 <div className='layer_2 pt-5 row rounded'>
@@ -114,7 +114,7 @@ function Myprojects(props) {
                     </div>
                     <div className='col-12 col-md-4 description'>
                         <p>This website is developed in part by Spotify. It has the function of listening to music, searching for music albums, logging in and registering. I use LocalStorage to store user information.</p>
-                        <p className='pt-4'>Link Project: <a href='https://music-app-7a1b5.web.app/'>Music Player</a></p>
+                        <p className='pt-4 linkProject'><a href='https://music-app-7a1b5.web.app/'>Music Player</a></p>
                     </div>
                 </div>
                 <div className='layer_2 pt-5 row rounded'>
@@ -169,7 +169,7 @@ function Myprojects(props) {
                     <div className='col-12 col-md-4 description phancach'>
                         <p>This is ChillBeat, coded from React, Bootstrap, i18next, Firebase,... Its main functions are login, music, and online chat.</p>
                         <p className='pt-2'>This website is very convenient for listening to music and chatting with friends on the same platform.</p>
-                        <p className='pt-4'>Link Project: <a href='https://beat-app-afb80.web.app/'>ChillBeat</a></p>
+                        <p className='pt-4 linkProject'><a href='https://beat-app-afb80.web.app/'>ChillBeat</a></p>
                     </div>
                 </div>
             </div>
