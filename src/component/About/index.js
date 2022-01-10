@@ -25,7 +25,6 @@ function About(props) {
                                             KMIN ACADEMY
                                 </a></b> as the place to start. After 8 months, I have learned many things from basic to advanced.
                     From <b>HTML5, CSS, JS Basic, Github, Sass, Bootstrap, Jquery, ES6, Ant Design, React, Hooks, React-Redux, Redux Toolkit, RESTful API,  Deploy a Web ... </b>
-                    I also learned <b> Data Structures, Algorithms, Photoshop</b>  from College.
                 </p>
                 <div className='head'>C</div>
                 <p className='paragrap'>
