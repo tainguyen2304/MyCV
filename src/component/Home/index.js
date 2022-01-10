@@ -28,10 +28,10 @@ const Home = (props) => {
                         <b >Who am I?</b>
                     </div>
                     <div className='col-12 col-md-9 box__answer'>
-                        <p className='mb-4'>- A <b className="fw-bolder fs-5">Frontend Developer</b> with skills: <b className="fw-bolder fs-5">HTML5   -   CSS   -   JS Basic   -   Github   -   Sass   -   Bootstrap   -   Jquery   -   ES6   -   Ant  Design   -   React   -   Hooks   -   React-Redux   -   Redux  Toolkit   -   RESTful API   -   Deploy a Web   -  UI/UX.</b>
+                        <p className='mb-4'>- A <b className="fw-bolder fs-5">Frontend Trainee</b> with skills: <b className="fw-bolder fs-5">Git   -   Scss   -   Bootstrap   -   ES6  -   React  -   Redux  Toolkit   -  Rest API calls. </b>
                         </p>
-                        <p className='mb-4'>- A student majoring in information technology at Cao Thang Technical College.</p>
-                        <p className='mb-4'>- A student has a certificate of graduation from Frontend course at Kmin Academy.</p>
+                        {/* <p className='mb-4'>- A student majoring in information technology at Cao Thang Technical College.</p>
+                        <p className='mb-4'>- A student has a certificate of graduation from Frontend course at Kmin Academy.</p> */}
                     </div>
                 </div>
                 <div className='row px-3'>
@@ -39,9 +39,8 @@ const Home = (props) => {
                         <b className="fw-bolder fs-5">What do I do?</b>
                     </div>
                     <div className='col-12 col-md-9 box__answer answer-2 pt-5'>
-                        <p className='mb-4'>- Many things related to Frontend!</p>
-                        <p>- Front-end Developer.</p>
-                        <p></p>
+                        <p>- Design web interface using HTML, CSS, ReactJs,Bootstrap.</p>
+                        <p>- Use ReactJs,Redux, to create web page functions.</p>
                     </div>
                 </div>
             </div>
